@@ -8,14 +8,18 @@ var spliter = {
 	},
 
 	addNew : function() {
-		if (spliter.recordNum == 0) {spliter.showCalc();}
+		if (spliter.recordNum == 0) {spliter.showBtns();}
 		$("#recordBox").append(spliter.recordEl);
 		spliter.recordNum++;
 	},
 
 
-	showCalc : function() {
-		$("#calc").removeClass("hide");
+	showBtns : function() {
+		$("#btns").removeClass("hide");
+	},
+
+	hideBtns : function() {
+		$("#btns").addClass("hide");
 	},
 
 	calc : function() {
@@ -75,6 +79,12 @@ var spliter = {
 			
 		});
 		$('#resultModal').modal('toggle');
+	},
+
+	clean : function() {
+		spliter.recordNum = 0;
+		$("#recordBox").html("");
+		hideBtns();
 	}
 
 	

@@ -19,6 +19,10 @@ i.record > input {
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-#calc {
+#btns {
 	margin-bottom: 20px;
+}
+
+#btns input{
+	width: 87px;
 }
