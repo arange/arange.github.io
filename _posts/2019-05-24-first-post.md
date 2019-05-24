@@ -11,7 +11,7 @@ Hello everyone who's reading this, I'm glad you just found another place to chil
 
 ### Thanks
 
-Many thanks to [daattali](https://github.com/daattali) who created this [*Beautiful project*](https://github.com/daattali/beautiful-jekyll) that allows me to build this website in minutes! You should be able to see how many stars and forks and follows this project has gained right under the subtitle of this article.
+Many thanks to [daattali](https://github.com/daattali) who created this [*Beautiful project*](https://github.com/daattali/beautiful-jekyll) that allows me to build this website in minutes! You should be able to see how many stars, forks and follows this project has gained right **under the subtitle of this article**.
 
 ### Testing
 
