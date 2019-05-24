@@ -1,4 +1,4 @@
-var main={
+var spliter={
 
 	init:function(){
 		console.log("test")
@@ -7,4 +7,4 @@ var main={
 };
 
 
-document.addEventListener('DOMContentLoaded', main.init);
+document.addEventListener('DOMContentLoaded', spliter.init);
