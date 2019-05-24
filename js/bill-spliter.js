@@ -23,11 +23,12 @@ var spliter = {
 
 		var recordEls = $("#recordBox > i");
 		for (var i = 0; i < spliter.recordNum; i++) {
-			var peopleList = spliter.splitPeople(recordEls[i].children(".sharer").val());
+			var reord = $(recordEls[i]);
+			var peopleList = spliter.splitPeople($(record.children(".sharer")).val());
 			var numOfSharer = peopleList.length;
-			var amount = parseInt(recordEls[i].children(".aom").val().match(/[0-9]+/));
+			var amount = parseInt($(record.children(".aom")).val().match(/[0-9]+/));
 			if (isNaN(amount)){
-				$(".alert").alert();
+					spliter.showAlert();
 				break;
 			}
 			else {
@@ -39,7 +40,7 @@ var spliter = {
 				}
 				people.peopleList[j] += avg;
 			}
-			var payer = recordEls[i].children(".payer").val().trim();
+			var payer = $(record.children(".payer")).val().trim();
 			if(!people.payer){
 				people.payer = 0;
 			}
@@ -49,6 +50,14 @@ var spliter = {
 
 	splitPeople : function(str) {
 		return str.trim().split(/[\s,]+/);
+	},
+
+	showAlert : function() {
+		$(".alert").addClass("in");
+	},
+
+	hideAlert : function() {
+		$(".alert").removeClass("in");	
 	}
 
 	
