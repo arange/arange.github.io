@@ -45,9 +45,9 @@ var spliter = {
 			if(!people[payer]){
 				people[payer] = 0;
 			}
-			people[payer] -= avg;
+			people[payer] -= amount;
 		}
-		showResult(people);
+		spliter.showResult(people);
 	},
 
 	splitPeople : function(str) {
@@ -64,6 +64,7 @@ var spliter = {
 
 	showResult : function(people) {
 		var body = $('#resultModal .modal-body');
+		body.html("");
 		Object.entries(people).forEach(([key, value]) => {
 			if (value>0) {
 				body.append('<div>'+key+' should pay $'+ value +'</div>');
