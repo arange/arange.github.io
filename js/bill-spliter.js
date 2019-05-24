@@ -8,8 +8,15 @@ var spliter = {
 	},
 
 	addNew : function() {
-		if (spliter.recordNum == 0) {spliter.showBtns();}
-		$("#recordBox").append(spliter.recordEl);
+		if (spliter.recordNum == 0) {
+			spliter.showBtns();
+			$("#recordBox").append(spliter.recordEl);
+		}
+		else{
+			var box = $("#recordBox");
+			var records = $(box).children("i");
+			$(records[records.length-1]).clone().appendTo(box);
+		}
 		spliter.recordNum++;
 	},
 
@@ -84,7 +91,7 @@ var spliter = {
 	clean : function() {
 		spliter.recordNum = 0;
 		$("#recordBox").html("");
-		hideBtns();
+		spliter.hideBtns();
 	}
 
 	
