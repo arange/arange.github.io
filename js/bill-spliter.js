@@ -8,7 +8,7 @@ var spliter = {
 	},
 
 	addNew : function() {
-		if (spliter.recordNum == 0) {showCalc();}
+		if (spliter.recordNum == 0) {spliter.showCalc();}
 		$("#recordBox").append(spliter.recordEl);
 		spliter.recordNum++;
 	},
