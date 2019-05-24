@@ -1,28 +1,18 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: First Post
+subtitle: Literally my first post
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
-comments: true
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Hello everyone who's reading this, I'm glad you just found another place to chill out.
 
-**Here is some bold text**
+Many thanks to [daattali](https://github.com/daattali) who created this [*Beautiful project*](https://github.com/daattali/beautiful-jekyll) that allows me to build this website in minutes! You should be able to see how many stars and forks and follows this project has gained right under the subtitle of this article.
 
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
+### Testing
+**_The following contents are just a test of markdown syntax, you can ignore it if not interested._**
 
 How about a yummy crepe?
 

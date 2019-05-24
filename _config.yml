@@ -26,6 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Privacy Tips: "privacy_tips"
+    - Bill Spliter: "bill_spliter"
     - Google: "https://www.google.com"
     - Facebook: "http://www.facebook.com/"
     - GitHub Pages: "https://pages.github.com/"
