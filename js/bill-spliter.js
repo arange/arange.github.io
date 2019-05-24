@@ -21,13 +21,13 @@ var spliter = {
 	calc : function() {
 		var people = {};
 
-		spliter.recordEls = $("#recordBox > i");
+		var recordEls = $("#recordBox > i");
 		for (var i = 0; i < spliter.recordNum; i++) {
 			var peopleList = spliter.splitPeople(recordEls[i].children(".sharer").val());
 			var numOfSharer = peopleList.length;
 			var amount = parseInt(recordEls[i].children(".aom").val().match(/[0-9]+/));
 			if (isNaN(amount)){
-				alert("Please enter the amount of money correctly!");
+				$(".alert").alert();
 				break;
 			}
 			else {
