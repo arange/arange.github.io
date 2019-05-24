@@ -10,21 +10,17 @@ js:
 - "/js/bill-spliter.js"
 ---
 
-<div id="Des">
+<div>
 	<article>
-		<h2>Click the "New" button to add a new record.</h2>
+		<h2>Click the <input class="btn btn-success" type="button" name="newBtn" onclick="spliter.addNew()" value="New"> button to add a new record.</h2>
 	</article>
 </div>
 
 <div>
-	<div>
-		<input type="button" name="New" onclick="spliter.addNew()">
-	</div>
 	<div id="recordBox">
-		
 	</div>
 	<div id="calc">
-		<input type="button" name="Calculate" onclick="spliter.calc()">
+		<input class="btn btn-info" type="button" name="calculatebtn" onclick="spliter.calc()" value="Calculate">
 	</div>
 </div>
 
