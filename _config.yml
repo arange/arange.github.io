@@ -23,10 +23,11 @@ description: A place for fun
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  Home: "index"
   Privacy Tips: "privacy_tips"
   Resources:
     - Bill Spliter: "bill_spliter"
+  About Me: "aboutme"
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
