@@ -17,7 +17,7 @@ baseurl: ""
 title: Pan's website
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: A place for fun
 
 # --- Navigation bar options --- #
 
@@ -25,6 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Resources:
+    - Privacy Tips: "privacy_tips"
     - Google: "https://www.google.com"
     - Facebook: "http://www.facebook.com/"
     - GitHub Pages: "https://pages.github.com/"
