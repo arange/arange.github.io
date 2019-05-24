@@ -1,6 +1,6 @@
 var spliter = {
 
-	recordEl : '<i class="record"><input class="sharer" placeholder="Name of each people." /> share the bill for $<input class="aom" placeholder="Amount of money" />, <input class="payer" placeholder="Payer" /> paid for it.</i>',
+	recordEl : '<i class="record"><input class="sharer" placeholder="Names of all people" /> share the bill for $<input class="aom" placeholder="Amount of money" />, <input class="payer" placeholder="Payer" /> paid for it.</i>',
 	recordNum : 0,
 
 	init : function() {
