@@ -19,6 +19,10 @@ i.record > input {
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+i .aom {
+	width: 80px;
+}
+
 #btns {
 	margin-bottom: 20px;
 }
