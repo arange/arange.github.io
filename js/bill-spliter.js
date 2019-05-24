@@ -4,7 +4,7 @@ var spliter = {
 	recordNum : 0,
 
 	init : function() {
-		$("#calc").hide();
+		// $("#calc").hide();
 	},
 
 	addNew : function() {
@@ -23,7 +23,7 @@ var spliter = {
 
 		var recordEls = $("#recordBox > i");
 		for (var i = 0; i < spliter.recordNum; i++) {
-			var reord = $(recordEls[i]);
+			var record = $(recordEls[i]);
 			var peopleList = spliter.splitPeople($(record.children(".sharer")).val());
 			var numOfSharer = peopleList.length;
 			var amount = parseInt($(record.children(".aom")).val().match(/[0-9]+/));
