@@ -35,16 +35,17 @@ var spliter = {
 				var avg = amount / numOfSharer;
 			}
 			for (var j = 0; j < peopleList.length; j++) {
-				if (!people.peopleList[j]){
-					people.peopleList[j] = 0;
+				var name = peopleList[j]
+				if (!people[name]){
+					people[name] = 0;
 				}
-				people.peopleList[j] += avg;
+				people[name] += avg;
 			}
 			var payer = $(record.children(".payer")).val().trim();
-			if(!people.payer){
-				people.payer = 0;
+			if(!people[payer]){
+				people[payer] = 0;
 			}
-			people.payer -= avg;
+			people[payer] -= avg;
 		}
 	},
 
