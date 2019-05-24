@@ -26,9 +26,9 @@ var spliter = {
 			var record = $(recordEls[i]);
 			var peopleList = spliter.splitPeople($(record.children(".sharer")).val());
 			var numOfSharer = peopleList.length;
-			var amount = parseInt($(record.children(".aom")).val().match(/[0-9]+/));
+			var amount = parseFloat($(record.children(".aom")).val().match(/[0-9]+/));
 			if (isNaN(amount)){
-					spliter.showAlert();
+				spliter.showAlert();
 				break;
 			}
 			else {
@@ -47,6 +47,7 @@ var spliter = {
 			}
 			people[payer] -= avg;
 		}
+		showResult(people);
 	},
 
 	splitPeople : function(str) {
@@ -59,6 +60,20 @@ var spliter = {
 
 	hideAlert : function() {
 		$(".alert").removeClass("in");	
+	},
+
+	showResult : function(people) {
+		var body = $('#resultModal .modal-body');
+		Object.entries(people).forEach(([key, value]) => {
+			if (value>0) {
+				body.append('<div>'+key+' should pay $'+ value +'</div>');
+			}
+			else{
+				body.append('<div>'+key+' should receive $'+ Math.abs(value) +'</div>');	
+			}
+			
+		});
+		$('#resultModal').modal('toggle');
 	}
 
 	
