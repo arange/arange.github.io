@@ -15,7 +15,7 @@ var spliter = {
 
 
 	showCalc : function() {
-		$("#calc").show();
+		$("#calc").removeClass("hide");
 	},
 
 	calc : function() {
