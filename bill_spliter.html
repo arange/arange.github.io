@@ -4,13 +4,27 @@ title: Bill Spliter
 subtitle: A convenient way to split your bills with friends.
 
 css:
-  - "/css/bill-spliter.css"
+- "/css/bill-spliter.css"
 
 js:
-  - "/js/bill-spliter.js"
+- "/js/bill-spliter.js"
 ---
 
-<div id="	">
-  <i><input placeholder="Name of each people." /> share the bill for $<input placeholder="Amount of money" />, <input placeholder="Payer" /> paid for it.</i>
-
+<div id="Des">
+	<article>
+		<h2>Click the "New" button to add a new record.</h2>
+	</article>
 </div>
+
+<div>
+	<div>
+		<input type="button" name="New" onclick="spliter.addNew()">
+	</div>
+	<div id="recordBox">
+		
+	</div>
+	<div id="calc">
+		<input type="button" name="Calculate" onclick="spliter.calc()">
+	</div>
+</div>
+
