@@ -1,6 +1,7 @@
 i.record {
 	display: block;
 	margin-bottom: 20px;
+	text-align: center;
 }
 i.record > input {
 	height: 34px;
@@ -19,12 +20,18 @@ i.record > input {
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-i .aom {
+input.aom {
 	width: 80px;
 }
 
+input.payer {
+	width: 
+}
+
+
 #btns {
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 #btns input{
