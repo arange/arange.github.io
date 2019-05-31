@@ -26,13 +26,13 @@ For Windows, just use Windows Update to check for updates and even after applyin
 - Major OS upgrades (e.g. 10.13.x -> 10.14.x) will require a manual download and installation by searching for it in the App Store. The installer file is usually around 6GB in size.
 
 ## No public wifi
-Passwords. We use them everywhere - to log onto our own computers
 
 # Level 2: Advanced users
 
 ## 2FA - Two Factor Authentication
 
 ## Password Generating and Management
+Passwords. We use them everywhere - to log onto our own computers
 
 ### Softwares recommended
 
