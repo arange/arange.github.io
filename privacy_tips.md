@@ -4,18 +4,13 @@ title: Privacy Tips
 subtitle: How you can protect your privacy better
 ---
 
-# For General Users  
-- blahblahblah
-*italic*
-**bold**
-
 # Level 1: Basic users
 Viruses and malware are everywhere and they take advantage of unpatched vulnerabilities in devices, be it computers or mobile devices. Software and operating system updates are released for a reason - updates close off discovered security holes/vulnerabilities and prevent them from being exploited. However, if updates are not applied, the holes remain open to exploitation. So, always update your operating system and individual software. 
 
 It's important to update individual software as well because they may contain holes that allow systemwide access. Individual software are individually updated and not part of OS updates.
 
 ## Updating operating systems
-Check updates daily!
+**Check updates daily!**
 
 ### Windows:
 For Windows, just use Windows Update to check for updates and even after applying updates, keep checking until no more updates are available, because some updates require previous updates to be installed first as a prerequisite. _**Don't count on Windows to automatically install updates either**_.
@@ -51,10 +46,15 @@ Public wifi, on one hand, is dangerous if not properly configured. Basically, al
 
 ## 2FA - Two Factor Authentication
 
+
+
 ## Password Generating and Management
 Passwords. We use them everywhere - to log onto our own computers
 
 ### Softwares recommended
+
+- 1Password
+- LastPass
 
 # Level 3: For the security-conscious
 
