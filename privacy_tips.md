@@ -30,17 +30,13 @@ For Windows, just use Windows Update to check for updates and even after applyin
 - For apps distributed through an app store, head to the app store and look for the updates section.
 
 ## Avoid using public wireless networks
-Public wireless networks can be used by anyone, and chances are that there could be a bad guy on the network intercepting your internet traffic (which is trivial to carry out). In fact, if your device has unpatched vulnerabilities, they can be exploited by a malicious actor on the same network that you are connected to (hence the need to always have the latest updates!).
+Public wireless networks can be used by anyone, and chances are that there could be a bad guy on the network intercepting your internet traffic (which is trivial to carry out). Essentially, all traffic is available to anyone on the network with the right tools. Such traffic contains information which can include but are not limited to the pictures you are posting, the articles you are reading and your passwords, usernames, phone numbers, addresses and credit card numbers, etc.
 
-If you absolutely have to use public wireless networks, use a VPN to encrypt and hide your internet traffic. Don't get free VPNs - they more likely than not intercept your data for their own (possibly criminal) purposes.
+Furthermore, if your device has unpatched vulnerabilities, they can be exploited by a malicious actor on the same network that you are connected to (hence the need to always have the latest updates!).
 
+**Try not to use public wireless networks if possible. Use your cellular data instead.**
 
-
-**Try to avoid using public wifi if possible. Use your cellular data instead.**
-
-We’re fully aware that expecting people to never connect to free WiFi just because of the risks it poses doesn’t always outweigh the benefits of saving data while traveling. Instead, we simply encourage users to stay safe. If you’re asking why, here are some reasons.
-
-Public wifi, on one hand, is dangerous if not properly configured. Basically, all the information you're transferring is available to everybody on the network. The information include the pictures you are posting, the articles you are reading, and your passwords, usernames, phone numbers, addresses and credit card numbers, etc. However, if you happens to have ran out of data and still wanna keep your private information safe, we recommend you to have a trustworthy vpn service installed on whatever device you want to connect to public wifi. 
+However, we are aware that asking people to never connect to public wireless networks may not always be possible as people may not have large cellular data plans or roaming data. If you absolutely have to use public wireless networks, use a VPN to encrypt and hide your internet traffic. Don't get free VPNs - they more likely than not intercept your data for their own (possibly criminal) purposes.
 
 # Level 2: Advanced users
 
