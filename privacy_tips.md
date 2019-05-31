@@ -38,6 +38,8 @@ Furthermore, if your device has unpatched vulnerabilities, they can be exploited
 
 However, we are aware that asking people to never connect to public wireless networks may not always be possible as people may not have large cellular data plans or roaming data. If you absolutely have to use public wireless networks, use a VPN to encrypt and hide your internet traffic. Don't get free VPNs - they more likely than not intercept your data for their own (possibly criminal) purposes.
 
+**Email phishing - check sender address**
+
 # Level 2: Advanced users
 
 ## 2FA - Two Factor Authentication
