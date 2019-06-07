@@ -15,7 +15,8 @@ Viruses and malware are everywhere and they take advantage of unpatched vulnerab
 It's important to update individual software as well because they may contain holes that allow systemwide access. Individual software are individually updated and not part of OS updates.
 
 ## Updating operating systems
-_**\*Check updates daily if you can!**_
+{: .box-note}
+_**Note**_:Check updates daily if you can!
 
 ### Windows:
 For Windows, just use Windows Update to check for updates and even after applying updates, keep checking until no more updates are available, because some updates require previous updates to be installed first as a prerequisite. _**Don't count on Windows to automatically install updates either**_.
@@ -65,7 +66,7 @@ It is important that you do not save a screenshot of the QR code for later usage
 
 Generally, enabling 2FA can be found in your account's security settings of a website.
 
-Another type of 2FA is by sending one-time tokens to your phone by SMS. This is much less secure than the above method as it is vulnerable to SIM-swap attacks, where malicious actors apply social engineering to your mobile carrier to move your number to a SIM card that they hold (and henceforth all calls and messages will be redirected to their SIM card). Besides that, SMS messages can also be intercepted (phone calls too, see [SS7 flaw](https://www.schneier.com/blog/archives/2015/08/ss7_phone-switc.html))
+Another type of 2FA is by sending one-time tokens to your phone by SMS. This is much less secure than the above method as it is vulnerable to SIM-swap attacks, where malicious actors apply social engineering to your mobile carrier to move your number to a SIM card that they hold (and henceforth all calls and messages will be redirected to their SIM card). Besides that, **SMS messages can also be intercepted** (phone calls too, see [SS7 flaw](https://www.schneier.com/blog/archives/2015/08/ss7_phone-switc.html))
 
 
 ## Password Generating and Management
@@ -73,7 +74,7 @@ Passwords. We use them everywhere - to log onto our own computers, banking servi
 
 However, reusing passwords has its pitfalls. If one website happens to get hacked in a data breach, malicious actors can then use compromise credentials that are used across multiple websites. Meanwhile, weak passwords can be too easily guessed/cracked in a short period of time via brute-force dictionary attacks.
 
-Here are some [Quick Tips from Australian Governent](https://www.oaic.gov.au/individuals/privacy-fact-sheets/general/privacy-fact-sheet-8-ten-tips-to-protect-your-privacy#protect-yourself-online)  as well.
+Here are some [Quick Tips from Australian Governent](https://www.oaic.gov.au/individuals/privacy-fact-sheets/general/privacy-fact-sheet-8-ten-tips-to-protect-your-privacy#protect-yourself-online) as well if you're interested.
 
 
 
