@@ -16,6 +16,7 @@ Viruses and malware are everywhere and they take advantage of unpatched vulnerab
 It's important to update individual software as well because they may contain holes that allow systemwide access. Individual software are individually updated and not part of OS updates.
 
 ## Updating operating systems
+
 {: .box-note}
 _**Note**_:Check updates daily if you can!
 
@@ -81,6 +82,7 @@ A solution would be to use a password manager to generate complex, random passwo
 
 
 ### Recommended password managers
+
 {: .box-warning}
 Note that most of password managers has to be paid to allow syncing between different platforms (e.g. Mac/Android/Windows).
 
