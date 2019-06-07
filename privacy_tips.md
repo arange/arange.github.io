@@ -6,11 +6,20 @@ subtitle: How you can protect your digital life better
 
 # Before you start reading...
 
-General tips:
-
+General tips:\\
 If you are concerned about your privacy and security and you are willing to protect them at the cost of some convenience, try to keep these ideas in mind such as giving less personal information to untrusted services, turning off services like locations whenever it's unnecessary and updating softwares as frequently as possible.
 	
 No idea what to do? You've came to the right place! Here are some tips for different level of netizens.
+
+Contents
+- [Level 1: Basic](https://arange.github.io/privacy_tips/#level-1-basic)
+	- [Updating Operation Systems](https://arange.github.io/privacy_tips/#updating-operating-systems)
+		- [Windows](https://arange.github.io/privacy_tips/#windows)
+		- [macOS](https://arange.github.io/privacy_tips/#macos)
+		- [Android and IOS](https://arange.github.io/privacy_tips/#android-and-ios)
+		- [Individual software](https://arange.github.io/privacy_tips/#individual-software)
+
+
 
 
 # Level 1: Basic
@@ -34,7 +43,7 @@ For Windows, just use Windows Update to check for updates and even after applyin
 
 - Major OS upgrades (e.g. 10.13.x -> 10.14.x) will require a manual download and installation by searching for it in the App Store. The installer file is usually around 6GB in size.
 
-### Android and iOS
+### Android and iOS:
 - Search for it in your device's settings.
 
 ### Individual software:
