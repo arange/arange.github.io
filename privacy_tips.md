@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Privacy Tips
+title: Security Tips
 subtitle: How you can protect your digital life better
 ---
 
 # Before you start reading...
-If you are concerned about your privacy and security and willing to protect them at the cost of some convenience, try to keep these ideas in mind such as giving less personal information to untrusted services, turning off services like locations whenever it's unnecessary and updating softwares as frequently as possible.
+
+General tips:
+
+If you are concerned about your privacy and security and you are willing to protect them at the cost of some convenience, try to keep these ideas in mind such as giving less personal information to untrusted services, turning off services like locations whenever it's unnecessary and updating softwares as frequently as possible.
 	
 No idea what to do? You've came to the right place! Here are some tips for different level of netizens.
 
 
 # Level 1: Basic
+
 Viruses and malware are everywhere and they take advantage of unpatched vulnerabilities in devices, be it computers or mobile devices. Software and operating system updates are released for a reason - updates close off discovered security holes/vulnerabilities and prevent them from being exploited. However, if updates are not applied, the holes remain open to exploitation. So, always update your operating system and individual software. 
 
 It's important to update individual software as well because they may contain holes that allow systemwide access. Individual software are individually updated and not part of OS updates.
@@ -116,7 +120,7 @@ For Windows computers, protection measures differ between manufacturers, so no i
 For Apple computers, protection measures are uniform.
 ### Macs without the T2 chip 
 1. Shut down the Mac
-2. Boot into Recovery mode (hold Command+R at startup, or if that doesn't work, see https://support.apple.com/en-au/HT201314)
+2. Boot into Recovery mode (hold Command+R at startup, or if that doesn't work, see [here](https://support.apple.com/en-au/HT201314))
 3. Once booted, select language if necessary
 4. In the top menu bar, click Utilities -> Firmware password utility
 5. Turn on firmware password protection, set a password and reboot.
