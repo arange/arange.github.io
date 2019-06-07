@@ -38,16 +38,39 @@ Furthermore, if your device has unpatched vulnerabilities, they can be exploited
 
 However, we are aware that asking people to never connect to public wireless networks may not always be possible as people may not have large cellular data plans or roaming data. If you absolutely have to use public wireless networks, use a VPN to encrypt and hide your internet traffic. Don't get free VPNs - they more likely than not intercept your data for their own (possibly criminal) purposes.
 
-**Email phishing - check sender address**
+## Email phishing - check sender address
+
+Sometimes, you may receive an email warning you that your account may be expiring soon or something along those lines. Generally, these emails will look like a legitimate service, such as a bank, mobile carrier, PayPal, etc. However, beware of these emails - they're usually phishing scams that trick you into entering your account details, which they can then intercept and compromise.
+
+How can you tell if it's fake? Reveal the email sender's full address - if it does not end with a legitimate domain, that's a red flag. Next, check for grammatical and/or formatting errors.
+
+Generally, you shouldn't click on links in emails to login or reset details, unless you know that the email is legitimate (e.g. clicking on a forget password link in your web browser, which then asks you to check your inbox for a newly-arrived email containing a reset link).
+
+Avoid opening email attachments as well if it's from people you aren't expecting/do not know. They may contain malicious payloads.
 
 # Level 2: Advanced users
 
 ## 2FA - Two Factor Authentication
 
+2FA acts to make sure that it's really the account owner that's trying to login into a service. With 2FA, having a username and password is not enough - the account owner needs to provide a random one-time token to get through. So even if someone else has your credentials, that someone still can't login without a one-time token that only you hold.
+
+Most major websites these days offer 2FA, usually by scanning a QR code which contains a secret key for a mobile authenticator app (e.g. Google Authenticator, Microsoft Authenticator) to generate 6-digit tokens (randomized every 30 seconds). 
+
+It is important that you do not save a screenshot of the QR code for later usage, because anyone who is able to gain access to the QR code for scanning will be able to generate the same one-time tokens. It should also be noted that the tokens are not transferable between devices. Should you change phones, you should not just sell your phone yet in case you need the tokens to login to a website prior to scanning new QR codes into your new phone.
+
+Generally, enabling 2FA can be found in your account's security settings of a website.
+
+Another type of 2FA is by sending one-time tokens to your phone by SMS. This is much less secure than the above method as it is vulnerable to SIM-swap attacks, where malicious actors apply social engineering to your mobile carrier to move your number to a SIM card that they hold (and henceforth all calls and messages will be redirected to their SIM card). Besides that, SMS messages can also be intercepted (phone calls too, see SS7 flaw: https://www.schneier.com/blog/archives/2015/08/ss7_phone-switc.html)
 
 
 ## Password Generating and Management
-Passwords. We use them everywhere - to log onto our own computers
+Passwords. We use them everywhere - to log onto our own computers, banking services, and just about any website. As a result, we  often re-use passwords/variations of the same password as we can't memorize long, unique passwords for every service that we use. Chances are also that the passwords are weak and insecure for a variety of reasons (e.g. dictionary words, not long enough and/or not enough variety of uppercase, lowercase, numerals and symbols).
+
+However, reusing passwords has its pitfalls. If one website happens to get hacked in a data breach, malicious actors can then use compromise credentials that are used across multiple websites. Meanwhile, weak passwords can be too easily guessed/cracked in a short period of time via brute-force dictionary attacks.
+
+
+
+
 
 ### Softwares recommended
 
