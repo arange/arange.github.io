@@ -68,14 +68,17 @@ Passwords. We use them everywhere - to log onto our own computers, banking servi
 
 However, reusing passwords has its pitfalls. If one website happens to get hacked in a data breach, malicious actors can then use compromise credentials that are used across multiple websites. Meanwhile, weak passwords can be too easily guessed/cracked in a short period of time via brute-force dictionary attacks.
 
-
+Here are some [quick tips](https://www.oaic.gov.au/individuals/privacy-fact-sheets/general/privacy-fact-sheet-8-ten-tips-to-protect-your-privacy#protect-yourself-online) from Australian Governent as well.
 
 
 
 ### Softwares recommended
+_**Note that most of password managers has to be paid to allow syncing between different platforms (e.g. Mac/Android/Windows).**_
 
 - 1Password
 - LastPass
+- Secrets
+- DashLane
 
 # Level 3: For the security-conscious
 
