@@ -7,7 +7,7 @@ subtitle: How you can protect your digital life better
 # Before you start reading...
 If you are concerned about your privacy and security and willing to protect them at the cost of some convenience, try to keep these ideas in mind such as giving less personal information to untrusted services, turning off services like locations whenever it's unnecessary and updating softwares as frequently as possible.
 
-No idea what to do? you've came to the right place. Here are some tips for different level of netizens.
+No idea what to do? You've came to the right place! Here are some tips for different level of netizens.
 
 # Level 1: Basic
 Viruses and malware are everywhere and they take advantage of unpatched vulnerabilities in devices, be it computers or mobile devices. Software and operating system updates are released for a reason - updates close off discovered security holes/vulnerabilities and prevent them from being exploited. However, if updates are not applied, the holes remain open to exploitation. So, always update your operating system and individual software. 
@@ -15,7 +15,7 @@ Viruses and malware are everywhere and they take advantage of unpatched vulnerab
 It's important to update individual software as well because they may contain holes that allow systemwide access. Individual software are individually updated and not part of OS updates.
 
 ## Updating operating systems
-**Check updates daily!**
+_**\*Check updates daily if you can!**_
 
 ### Windows:
 For Windows, just use Windows Update to check for updates and even after applying updates, keep checking until no more updates are available, because some updates require previous updates to be installed first as a prerequisite. _**Don't count on Windows to automatically install updates either**_.
@@ -65,7 +65,7 @@ It is important that you do not save a screenshot of the QR code for later usage
 
 Generally, enabling 2FA can be found in your account's security settings of a website.
 
-Another type of 2FA is by sending one-time tokens to your phone by SMS. This is much less secure than the above method as it is vulnerable to SIM-swap attacks, where malicious actors apply social engineering to your mobile carrier to move your number to a SIM card that they hold (and henceforth all calls and messages will be redirected to their SIM card). Besides that, SMS messages can also be intercepted (phone calls too, see SS7 flaw: https://www.schneier.com/blog/archives/2015/08/ss7_phone-switc.html)
+Another type of 2FA is by sending one-time tokens to your phone by SMS. This is much less secure than the above method as it is vulnerable to SIM-swap attacks, where malicious actors apply social engineering to your mobile carrier to move your number to a SIM card that they hold (and henceforth all calls and messages will be redirected to their SIM card). Besides that, SMS messages can also be intercepted (phone calls too, see [SS7 flaw](https://www.schneier.com/blog/archives/2015/08/ss7_phone-switc.html))
 
 
 ## Password Generating and Management
@@ -78,7 +78,7 @@ Here are some [Quick Tips from Australian Governent](https://www.oaic.gov.au/ind
 
 
 ### Softwares recommended
-_**Note that most of password managers has to be paid to allow syncing between different platforms (e.g. Mac/Android/Windows).**_
+_**\*Note that most of password managers has to be paid to allow syncing between different platforms (e.g. Mac/Android/Windows).**_
 
 - 1Password
 - LastPass
