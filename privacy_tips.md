@@ -7,9 +7,9 @@ subtitle: How you can protect your digital life better
 # Before you start reading...
 
 General tips:\\
-If you are concerned about your privacy and security and you are willing to protect them at the cost of some convenience, try to keep these ideas in mind such as giving less personal information to untrusted services, turning off services like locations whenever it's unnecessary and updating softwares as frequently as possible.
+If you are concerned about your privacy and security and you are willing to protect them at the cost of some convenience, try to keep these ideas in mind, such as giving less personal information to untrusted services, turning off services like location services whenever it's unnecessary and updating software as frequently as possible.
 	
-No idea what to do? You've came to the right place! Here are some tips for different level of netizens.
+No idea what to do? You've come to the right place! Here are some tips for different levels of users.
 
 Contents
 - [Level 1: Basic](https://arange.github.io/privacy_tips/#level-1-basic)
