@@ -1,10 +1,15 @@
 ---
 layout: page
 title: Privacy Tips
-subtitle: How you can protect your privacy better
+subtitle: How you can protect your digital life better
 ---
 
-# Level 1: Basic users
+# Before you start reading...
+If you are concerned about your privacy and security and willing to protect them at the cost of some convenience, try to keep these ideas in mind such as giving less personal information to untrusted services, turning off services like locations whenever it's unnecessary and updating softwares as frequently as possible.
+
+No idea what to do? you've came to the right place. Here are some tips for different level of netizens.
+
+# Level 1: Basic
 Viruses and malware are everywhere and they take advantage of unpatched vulnerabilities in devices, be it computers or mobile devices. Software and operating system updates are released for a reason - updates close off discovered security holes/vulnerabilities and prevent them from being exploited. However, if updates are not applied, the holes remain open to exploitation. So, always update your operating system and individual software. 
 
 It's important to update individual software as well because they may contain holes that allow systemwide access. Individual software are individually updated and not part of OS updates.
@@ -48,7 +53,7 @@ Generally, you shouldn't click on links in emails to login or reset details, unl
 
 Avoid opening email attachments as well if it's from people you aren't expecting/do not know. They may contain malicious payloads.
 
-# Level 2: Advanced users
+# Level 2: Advanced
 
 ## 2FA - Two Factor Authentication
 
@@ -68,7 +73,7 @@ Passwords. We use them everywhere - to log onto our own computers, banking servi
 
 However, reusing passwords has its pitfalls. If one website happens to get hacked in a data breach, malicious actors can then use compromise credentials that are used across multiple websites. Meanwhile, weak passwords can be too easily guessed/cracked in a short period of time via brute-force dictionary attacks.
 
-Here are some [quick tips](https://www.oaic.gov.au/individuals/privacy-fact-sheets/general/privacy-fact-sheet-8-ten-tips-to-protect-your-privacy#protect-yourself-online) from Australian Governent as well.
+Here are some [Quick Tips from Australian Governent](https://www.oaic.gov.au/individuals/privacy-fact-sheets/general/privacy-fact-sheet-8-ten-tips-to-protect-your-privacy#protect-yourself-online)  as well.
 
 
 
