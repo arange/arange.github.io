@@ -5,6 +5,7 @@ subtitle: How you can protect your digital life better
 ---
 
 # Before you start reading...
+{:.no_toc}
 
 General tips:\\
 If you are concerned about your privacy and security and you are willing to protect them at the cost of some convenience, try to keep these ideas in mind, such as giving less personal information to untrusted services, turning off services like location services whenever it's unnecessary and updating software as frequently as possible.
