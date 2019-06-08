@@ -11,16 +11,7 @@ If you are concerned about your privacy and security and you are willing to prot
 	
 No idea what to do? You've come to the right place! Here are some tips for different levels of users.
 
-Contents
-- [Level 1: Basic](https://arange.github.io/privacy_tips/#level-1-basic)
-	- [Updating Operation Systems](https://arange.github.io/privacy_tips/#updating-operating-systems)
-		- [Windows](https://arange.github.io/privacy_tips/#windows)
-		- [macOS](https://arange.github.io/privacy_tips/#macos)
-		- [Android and IOS](https://arange.github.io/privacy_tips/#android-and-ios)
-		- [Individual software](https://arange.github.io/privacy_tips/#individual-software)
-
-
-
+* TOC {:toc}
 
 # Level 1: Basic
 
