@@ -24,7 +24,7 @@ description: Every thought worth recording.
 # List of links in the navigation bar
 navbar-links:
   Home: "index"
-  Privacy Tips: "privacy_tips"
+  Security Tips: "privacy_tips"
   Resources:
     - Bill Spliter: "bill_spliter"
   About Me: "aboutme"
