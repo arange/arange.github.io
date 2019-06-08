@@ -5,5 +5,12 @@ subtitle: Why you'd want to know so much about me?
 ---
 My name is Pan Zhan.
 
-# **My Study Field**  
-I am currently interested in cyber security.
+# My Study Field
+Currently interested in cyber security.
+
+# My Interests
+- Any Apple Products  
+  I don't have Apple TV because I don't watch TV
+- Overwatch  
+  Add me on Battle Net: **ALR#11942** (_US Region_)
+- Guitar
