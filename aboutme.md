@@ -3,7 +3,6 @@ layout: page
 title: About Me
 subtitle: Why you'd want to know so much about me?
 ---
-# About Me
 My name is Pan Zhan.
 
 # **My Study Field**  
