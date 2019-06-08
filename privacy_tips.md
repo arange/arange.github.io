@@ -11,6 +11,7 @@ If you are concerned about your privacy and security and you are willing to prot
 	
 No idea what to do? You've come to the right place! Here are some tips for different levels of users.
 
+* TOC
 {:toc}
 
 # Level 1: Basic
