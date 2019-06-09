@@ -16,6 +16,6 @@ Here are my **settings** before solving the problem:
 ~~~~~
 
 This is what it looks like:  
+![Wrong Format](arange.github.io/img/posts/2019-06-09-learning-latex/wrong-format.png)
 
-[](arange.github.io/img/posts/2019-06-09-learning-latex/correct-format.png)
 ## Solution
