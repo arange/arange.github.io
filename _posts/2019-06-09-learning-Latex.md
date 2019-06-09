@@ -9,8 +9,8 @@ tags: [latex,learn,note,academic]
 ## Problem
 Recently I find it really annoying having the urls in my citation exceeding the page bounds. This happens particularly when I'm using the bibliography style of "**IEEEtran**".  
 Here are my **settings** before solving the problem:
-```md
-Software: [overleaf](http://overleaf.com) [online]  
+```
+Software: overleaf [online]  
 Compiler: pdfLaTex  
 Bibliographystyle: IEEEtran  
 ```
@@ -23,7 +23,7 @@ _As you can see, the two lines end with black blocks exceed the page bound._
 
 ## Solution
 The solution is so simple as you just need to add the following line in your latex text:  
-```md
+```
 \usepackage[hyphens]{url}
 ```
 
