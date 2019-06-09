@@ -40,6 +40,25 @@ Here we are! Now it looks like this:
 
 ![Correct Format](/img/posts/2019-06-09-learning-latex/correct-format.png)
 
+# Ugly alignment in bibliography section caused by long url
+## Problem
 
+Again, this is how the wrong alignment looks like:
 
+![Wrong Alignment](/img/posts/2019-06-09-learning-latex/wrong-alignment.png)
 
+_The compiler is really struggling with indenting the url correctly, but somehow it still did it wrong._
+
+## Solution
+
+This [answer from Will Robertson](https://tex.stackexchange.com/a/2780) introduces the magical package **microtype** which perfectly solved the problem. [More details about microtype here](https://ctan.org/pkg/microtype).
+
+Again, add this line to your latex text if you have the same issue:
+
+```
+\usepackage{microtype}
+```
+
+It should be like this after correctly adding the package:
+
+![Correct Alignment](/img/posts/2019-06-09-learning-latex/correct-alignment.png)
