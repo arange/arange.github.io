@@ -15,7 +15,7 @@ Compiler: pdfLaTex
 Bibliographystyle: IEEEtran  
 ```
 
-This is what it looks like:  
+This is how it looks like:  
 
 ![Wrong Format](https://arange.github.io/img/posts/2019-06-09-learning-latex/wrong-format.png)
 
@@ -27,7 +27,8 @@ The solution is so simple as you just need to add the following line in your lat
 \usepackage[hyphens]{url}
 ```
 
-
+Here we are, now it looks like this:  
+![Correct Format](/img/posts/2019-06-09-learning-latex/correct-format.png)
 
 
 
