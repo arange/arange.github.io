@@ -16,7 +16,7 @@ tags: [latex,learn,note,academic]
 ## Problem
 Recently I find it really annoying having the _**urls in my citation exceeding the page bounds**_.
 
-This is how the wrong format looks like:  
+This is how the **wrong format** looks like:  
 
 ![Wrong Format](/img/posts/2019-06-09-learning-latex/wrong-format.png)
 
@@ -37,7 +37,7 @@ ps: If you are using desktop software to write latex articles, I strongly recomm
 ## Solution
 Thanks to [Mico's answer on stackexchange](https://tex.stackexchange.com/a/88672), I finally solved this problem after some unsuccessful attempts including [importing the **breakcites** package](https://tex.stackexchange.com/a/2774).
 
-The solution is so simple as you just need to add the following line in your latex text:  
+**The solution is so simple** as you just need to add the following line in your latex text:  
 ```
 \usepackage[hyphens]{url}
 ```
@@ -48,7 +48,7 @@ Here we are! Now this is it:
 
 Looks just great!
 
-Btw, I need to look at url hyphenation later. Chances are I'll write another article about how it works.
+> Btw, I need to look at url hyphenation later. Chances are I'll write another article about how it works.
 
 # Ugly alignment in bibliography section caused by long url
 
@@ -59,7 +59,7 @@ Same [Environment](#environment) as before.
 
 ## Problem
 
-Again, this is how the wrong alignment looks like:
+Again, this is how the **wrong alignment** looks like:
 
 ![Wrong Alignment](/img/posts/2019-06-09-learning-latex/wrong-alignment.png)
 
@@ -75,6 +75,6 @@ Again, add this line to your latex text if you have the same issue:
 \usepackage{microtype}
 ```
 
-It should be like this after correctly adding the package:
+It should be like this once correctly imported the package:
 
 ![Correct Alignment](/img/posts/2019-06-09-learning-latex/correct-alignment.png)
