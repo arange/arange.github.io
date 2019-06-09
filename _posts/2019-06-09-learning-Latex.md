@@ -5,6 +5,9 @@ subtitle: Notes
 tags: [latex,learn,note,academic]
 ---
 
+* TOC
+{:toc}
+
 # Long URL in bibliography section
 
 {: .box-note}
@@ -20,8 +23,7 @@ This is how the wrong format looks like:
 _As you can see, the two lines end with black blocks exceed the page bound._
 
 
-## Settings
-Here are my **settings** before solving the problem:
+## Environment
 ```
 	Software: overleaf [online]  
 	Compiler: pdfLaTex  
@@ -30,7 +32,7 @@ Here are my **settings** before solving the problem:
 
 > I've also got a separate **.bib** file to store all my references.
 
-ps: If you are using desktop software to write latex articles, I strongly recommend you to shift to online editors like [overleaf](http://overleaf.com). It saves your time on installing all the packages locally and the online compling speed is way faster.
+ps: If you are using desktop software to write latex articles, I strongly recommend you to shift to online editors like [overleaf](http://overleaf.com). It saves your time installing all the packages locally and the online compling speed is way faster.
 
 ## Solution
 Thanks to [Mico's answer on stackexchange](https://tex.stackexchange.com/a/88672), I finally solved this problem after some unsuccessful attempts including [importing the **breakcites** package](https://tex.stackexchange.com/a/2774).
@@ -40,18 +42,20 @@ The solution is so simple as you just need to add the following line in your lat
 \usepackage[hyphens]{url}
 ```
 
-Here we are! Now it looks like this:  
+Here we are! Now this is it:  
 
 ![Correct Format](/img/posts/2019-06-09-learning-latex/correct-format.png)
 
-Probabely I need to look at url hyphenation later.
+Looks just great!
+
+Btw, I need to look at url hyphenation later. Chances are I'll write another article about how it works.
 
 # Ugly alignment in bibliography section caused by long url
 
 {: .box-note}
 **Topic:** alignment
 
-Same [settings](#settings) as before.
+Same [Environment](#environment) as before.
 
 ## Problem
 
