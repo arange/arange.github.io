@@ -19,12 +19,16 @@ This is how the wrong format looks like:
 
 _As you can see, the two lines end with black blocks exceed the page bound._
 
+
+## Settings
 Here are my **settings** before solving the problem:
 ```
-Software: overleaf [online]  
-Compiler: pdfLaTex  
-Bibliography Style: IEEEtran  
+	Software: overleaf [online]  
+	Compiler: pdfLaTex  
+	Bibliography Style: IEEEtran  
 ```
+
+> I've also got a separate **.bib** file to store all my references.
 
 ps: If you are using desktop software to write latex articles, I strongly recommend you to shift to online editors like [overleaf](http://overleaf.com). It saves your time on installing all the packages locally and the online compling speed is way faster.
 
@@ -40,7 +44,15 @@ Here we are! Now it looks like this:
 
 ![Correct Format](/img/posts/2019-06-09-learning-latex/correct-format.png)
 
+Probabely I need to look at url hyphenation later.
+
 # Ugly alignment in bibliography section caused by long url
+
+{: .box-note}
+**Topic:** alignment
+
+Same [settings](#settings) as before.
+
 ## Problem
 
 Again, this is how the wrong alignment looks like:
