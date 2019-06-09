@@ -5,7 +5,7 @@ subtitle: Notes
 tags: [latex,learn,note,academic]
 ---
 
-* TOC
+1. TOC
 {:toc}
 
 # Long URL in bibliography section
