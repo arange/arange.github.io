@@ -14,7 +14,7 @@ tags: [latex,learn,note,academic]
 **Topic:** pdfLaTex / IEEEtran style
 
 ## Problem
-Recently I find it really annoying having the urls in my citation exceeding the page bounds.
+Recently I find it really annoying having the _**urls in my citation exceeding the page bounds**_.
 
 This is how the wrong format looks like:  
 
