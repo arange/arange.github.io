@@ -17,7 +17,7 @@ Bibliographystyle: IEEEtran
 
 This is how it looks like:  
 
-![Wrong Format](https://arange.github.io/img/posts/2019-06-09-learning-latex/wrong-format.png)
+![Wrong Format](/img/posts/2019-06-09-learning-latex/wrong-format.png)
 
 _As you can see, the two lines end with black blocks exceed the page bound._
 
