@@ -2,6 +2,7 @@
 layout: page
 title: Security Tips
 subtitle: How you can protect your digital life better
+published: true
 ---
 
 # Before you start reading...
@@ -133,3 +134,10 @@ For Apple computers, protection measures are uniform.
 3. Make sure Full Security and Disallow booting from external media is enabled
 4. Turn on firmware password protection, set a password and reboot.
 
+# Related Works
+## From New York Times
+[NYTimes **Privacy Project**](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html)  
+[7 Simple Ways to Protect Your Digital Privacy](https://www.nytimes.com/2019/05/06/opinion/7-simple-ways-to-protect-your-digital-privacy.html?module=inline)  
+[Privacy Paradox](https://www.nytimes.com/2019/05/17/opinion/sunday/google-privacy.html?module=inline)
+### China
+[Feeling Safe In the Surveillance State](https://www.nytimes.com/2019/04/10/opinion/china-internet-surveillance.html)
