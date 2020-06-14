@@ -4,8 +4,11 @@ published: true
 title: >-
   React - component's constructor rendered twice leading to bugs using
   Axios.interceptor
+tags: [react,learn,bugfix]
 ---
+```
 React Vesion: 16.13.1
+```
 
 ## Quick Solution
 Simply turn off the strict mode by removing **<React.StrictMode>** in the **index.js** file should solve the problem.
@@ -17,7 +20,7 @@ The _componentWillMount_ method, along with _componentWillReceiveProps_ and _com
 
 That being said, in the console it will now warn you when you're using these methods, see the warning message below:
 
-	\> Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-unsafe-component-lifecycles for details.
+	> Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-unsafe-component-lifecycles for details.
 
 	* Move code with side effects to componentDidMount, and set initial state in the constructor.
 	* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
