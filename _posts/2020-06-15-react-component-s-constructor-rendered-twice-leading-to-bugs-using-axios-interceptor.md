@@ -1,9 +1,9 @@
 ---
 layout: post
-published: true
 title: >-
   React - component's constructor rendered twice leading to bugs using
   Axios.interceptor
+subtitle: Strict Mode
 tags: [react,learn,bugfix]
 ---
 ```
