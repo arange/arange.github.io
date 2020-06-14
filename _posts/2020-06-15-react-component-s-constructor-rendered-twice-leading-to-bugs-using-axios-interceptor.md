@@ -11,7 +11,7 @@ React Vesion: 16.13.1
 ```
 
 ## Quick Solution
-Simply turn off the strict mode by removing **<React.StrictMode>** in the **index.js** file should solve the problem.
+Simply turn off the strict mode by removing **\<React.StrictMode\>** in the **index.js** file should solve the problem.
 
 ## Cause
 ### Deprecated componentWillMount Method
